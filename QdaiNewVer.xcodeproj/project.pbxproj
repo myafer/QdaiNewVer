@@ -1,0 +1,471 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8FAB7E981C3036BD00A8F4A3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FAB7E971C3036BD00A8F4A3 /* main.m */; };
+		8FAB7E9B1C3036BD00A8F4A3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FAB7E9A1C3036BD00A8F4A3 /* AppDelegate.m */; };
+		8FAB7EA11C3036BD00A8F4A3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8FAB7E9F1C3036BD00A8F4A3 /* Main.storyboard */; };
+		8FAB7EA31C3036BD00A8F4A3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8FAB7EA21C3036BD00A8F4A3 /* Assets.xcassets */; };
+		8FAB7EA61C3036BD00A8F4A3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8FAB7EA41C3036BD00A8F4A3 /* LaunchScreen.storyboard */; };
+		8FAB7EC21C30470100A8F4A3 /* QdaiBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FAB7EC11C30470100A8F4A3 /* QdaiBaseViewController.m */; };
+		8FAB7EC51C30472000A8F4A3 /* QdaiBaseTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FAB7EC41C30472000A8F4A3 /* QdaiBaseTableViewController.m */; };
+		8FAB7EC81C30475600A8F4A3 /* QdaiHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FAB7EC71C30475600A8F4A3 /* QdaiHomeViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		8FAB7E931C3036BD00A8F4A3 /* QdaiNewVer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QdaiNewVer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8FAB7E971C3036BD00A8F4A3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8FAB7E991C3036BD00A8F4A3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		8FAB7E9A1C3036BD00A8F4A3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		8FAB7EA01C3036BD00A8F4A3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8FAB7EA21C3036BD00A8F4A3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8FAB7EA51C3036BD00A8F4A3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8FAB7EA71C3036BD00A8F4A3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8FAB7EC01C30470100A8F4A3 /* QdaiBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QdaiBaseViewController.h; sourceTree = "<group>"; };
+		8FAB7EC11C30470100A8F4A3 /* QdaiBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QdaiBaseViewController.m; sourceTree = "<group>"; };
+		8FAB7EC31C30472000A8F4A3 /* QdaiBaseTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QdaiBaseTableViewController.h; sourceTree = "<group>"; };
+		8FAB7EC41C30472000A8F4A3 /* QdaiBaseTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QdaiBaseTableViewController.m; sourceTree = "<group>"; };
+		8FAB7EC61C30475600A8F4A3 /* QdaiHomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QdaiHomeViewController.h; sourceTree = "<group>"; };
+		8FAB7EC71C30475600A8F4A3 /* QdaiHomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QdaiHomeViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8FAB7E901C3036BD00A8F4A3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8FAB7E8A1C3036BD00A8F4A3 = {
+			isa = PBXGroup;
+			children = (
+				8FAB7E951C3036BD00A8F4A3 /* QdaiNewVer */,
+				8FAB7E941C3036BD00A8F4A3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8FAB7E941C3036BD00A8F4A3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8FAB7E931C3036BD00A8F4A3 /* QdaiNewVer.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8FAB7E951C3036BD00A8F4A3 /* QdaiNewVer */ = {
+			isa = PBXGroup;
+			children = (
+				8FAB7EAD1C303B9400A8F4A3 /* Main */,
+				8FAB7E991C3036BD00A8F4A3 /* AppDelegate.h */,
+				8FAB7E9A1C3036BD00A8F4A3 /* AppDelegate.m */,
+				8FAB7E9F1C3036BD00A8F4A3 /* Main.storyboard */,
+				8FAB7EA21C3036BD00A8F4A3 /* Assets.xcassets */,
+				8FAB7EA41C3036BD00A8F4A3 /* LaunchScreen.storyboard */,
+				8FAB7EA71C3036BD00A8F4A3 /* Info.plist */,
+				8FAB7E961C3036BD00A8F4A3 /* Supporting Files */,
+			);
+			path = QdaiNewVer;
+			sourceTree = "<group>";
+		};
+		8FAB7E961C3036BD00A8F4A3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8FAB7E971C3036BD00A8F4A3 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8FAB7EAD1C303B9400A8F4A3 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				8FAB7EBF1C3046E400A8F4A3 /* 基类 */,
+				8FAB7EBA1C303B9400A8F4A3 /* 首页 */,
+				8FAB7EAE1C303B9400A8F4A3 /* 产品 */,
+				8FAB7EB91C303B9400A8F4A3 /* 订单 */,
+				8FAB7EB81C303B9400A8F4A3 /* 我的 */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		8FAB7EAE1C303B9400A8F4A3 /* 产品 */ = {
+			isa = PBXGroup;
+			children = (
+				8FAB7EAF1C303B9400A8F4A3 /* 借款详情 */,
+				8FAB7EB01C303B9400A8F4A3 /* 投标记录 */,
+				8FAB7EB11C303B9400A8F4A3 /* 本息评价 */,
+				8FAB7EB21C303B9400A8F4A3 /* 标的详情 */,
+				8FAB7EB41C303B9400A8F4A3 /* 立即投标 */,
+				8FAB7EB51C303B9400A8F4A3 /* 计算利息 */,
+				8FAB7EB61C303B9400A8F4A3 /* 贷后管理 */,
+				8FAB7EB71C303B9400A8F4A3 /* 风控意见 */,
+			);
+			path = "产品";
+			sourceTree = "<group>";
+		};
+		8FAB7EAF1C303B9400A8F4A3 /* 借款详情 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "借款详情";
+			sourceTree = "<group>";
+		};
+		8FAB7EB01C303B9400A8F4A3 /* 投标记录 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "投标记录";
+			sourceTree = "<group>";
+		};
+		8FAB7EB11C303B9400A8F4A3 /* 本息评价 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "本息评价";
+			sourceTree = "<group>";
+		};
+		8FAB7EB21C303B9400A8F4A3 /* 标的详情 */ = {
+			isa = PBXGroup;
+			children = (
+				8FAB7EB31C303B9400A8F4A3 /* 抵押质物 */,
+			);
+			path = "标的详情";
+			sourceTree = "<group>";
+		};
+		8FAB7EB31C303B9400A8F4A3 /* 抵押质物 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "抵押质物";
+			sourceTree = "<group>";
+		};
+		8FAB7EB41C303B9400A8F4A3 /* 立即投标 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "立即投标";
+			sourceTree = "<group>";
+		};
+		8FAB7EB51C303B9400A8F4A3 /* 计算利息 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "计算利息";
+			sourceTree = "<group>";
+		};
+		8FAB7EB61C303B9400A8F4A3 /* 贷后管理 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "贷后管理";
+			sourceTree = "<group>";
+		};
+		8FAB7EB71C303B9400A8F4A3 /* 风控意见 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "风控意见";
+			sourceTree = "<group>";
+		};
+		8FAB7EB81C303B9400A8F4A3 /* 我的 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "我的";
+			sourceTree = "<group>";
+		};
+		8FAB7EB91C303B9400A8F4A3 /* 订单 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "订单";
+			sourceTree = "<group>";
+		};
+		8FAB7EBA1C303B9400A8F4A3 /* 首页 */ = {
+			isa = PBXGroup;
+			children = (
+				8FAB7EBB1C303B9400A8F4A3 /* 口贷公告 */,
+				8FAB7EBC1C303B9400A8F4A3 /* 口贷论坛 */,
+				8FAB7EBD1C303B9400A8F4A3 /* 实时数据 */,
+				8FAB7EBE1C303B9400A8F4A3 /* 预约投标 */,
+				8FAB7EC61C30475600A8F4A3 /* QdaiHomeViewController.h */,
+				8FAB7EC71C30475600A8F4A3 /* QdaiHomeViewController.m */,
+			);
+			path = "首页";
+			sourceTree = "<group>";
+		};
+		8FAB7EBB1C303B9400A8F4A3 /* 口贷公告 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "口贷公告";
+			sourceTree = "<group>";
+		};
+		8FAB7EBC1C303B9400A8F4A3 /* 口贷论坛 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "口贷论坛";
+			sourceTree = "<group>";
+		};
+		8FAB7EBD1C303B9400A8F4A3 /* 实时数据 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "实时数据";
+			sourceTree = "<group>";
+		};
+		8FAB7EBE1C303B9400A8F4A3 /* 预约投标 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "预约投标";
+			sourceTree = "<group>";
+		};
+		8FAB7EBF1C3046E400A8F4A3 /* 基类 */ = {
+			isa = PBXGroup;
+			children = (
+				8FAB7EC01C30470100A8F4A3 /* QdaiBaseViewController.h */,
+				8FAB7EC11C30470100A8F4A3 /* QdaiBaseViewController.m */,
+				8FAB7EC31C30472000A8F4A3 /* QdaiBaseTableViewController.h */,
+				8FAB7EC41C30472000A8F4A3 /* QdaiBaseTableViewController.m */,
+			);
+			path = "基类";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8FAB7E921C3036BD00A8F4A3 /* QdaiNewVer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8FAB7EAA1C3036BD00A8F4A3 /* Build configuration list for PBXNativeTarget "QdaiNewVer" */;
+			buildPhases = (
+				8FAB7E8F1C3036BD00A8F4A3 /* Sources */,
+				8FAB7E901C3036BD00A8F4A3 /* Frameworks */,
+				8FAB7E911C3036BD00A8F4A3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = QdaiNewVer;
+			productName = QdaiNewVer;
+			productReference = 8FAB7E931C3036BD00A8F4A3 /* QdaiNewVer.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8FAB7E8B1C3036BD00A8F4A3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = Afer;
+				TargetAttributes = {
+					8FAB7E921C3036BD00A8F4A3 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+				};
+			};
+			buildConfigurationList = 8FAB7E8E1C3036BD00A8F4A3 /* Build configuration list for PBXProject "QdaiNewVer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8FAB7E8A1C3036BD00A8F4A3;
+			productRefGroup = 8FAB7E941C3036BD00A8F4A3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8FAB7E921C3036BD00A8F4A3 /* QdaiNewVer */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8FAB7E911C3036BD00A8F4A3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8FAB7EA61C3036BD00A8F4A3 /* LaunchScreen.storyboard in Resources */,
+				8FAB7EA31C3036BD00A8F4A3 /* Assets.xcassets in Resources */,
+				8FAB7EA11C3036BD00A8F4A3 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8FAB7E8F1C3036BD00A8F4A3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8FAB7EC81C30475600A8F4A3 /* QdaiHomeViewController.m in Sources */,
+				8FAB7E9B1C3036BD00A8F4A3 /* AppDelegate.m in Sources */,
+				8FAB7EC51C30472000A8F4A3 /* QdaiBaseTableViewController.m in Sources */,
+				8FAB7EC21C30470100A8F4A3 /* QdaiBaseViewController.m in Sources */,
+				8FAB7E981C3036BD00A8F4A3 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		8FAB7E9F1C3036BD00A8F4A3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8FAB7EA01C3036BD00A8F4A3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8FAB7EA41C3036BD00A8F4A3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8FAB7EA51C3036BD00A8F4A3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8FAB7EA81C3036BD00A8F4A3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8FAB7EA91C3036BD00A8F4A3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8FAB7EAB1C3036BD00A8F4A3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = QdaiNewVer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.qdai.testCo.QdaiNewVer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8FAB7EAC1C3036BD00A8F4A3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = QdaiNewVer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.qdai.testCo.QdaiNewVer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8FAB7E8E1C3036BD00A8F4A3 /* Build configuration list for PBXProject "QdaiNewVer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8FAB7EA81C3036BD00A8F4A3 /* Debug */,
+				8FAB7EA91C3036BD00A8F4A3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8FAB7EAA1C3036BD00A8F4A3 /* Build configuration list for PBXNativeTarget "QdaiNewVer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8FAB7EAB1C3036BD00A8F4A3 /* Debug */,
+				8FAB7EAC1C3036BD00A8F4A3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8FAB7E8B1C3036BD00A8F4A3 /* Project object */;
+}
